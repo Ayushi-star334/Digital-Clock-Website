@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Digital Clock</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Clock</h1>
+    <p id="greeting"></p>
+    <div id="clock">00:00:00</div>
+    <p id="date"></p>
+    <p id="day"></p>
+
+    <div id="countdown">
+      <h3>Countdown Timer</h3>
+      <input type="number" id="countdown-input" placeholder="Seconds" />
+      <div>
+        <button class="btn" id="start-countdown">Start</button>
+        <button class="btn" id="stop-countdown" disabled>Stop</button>
+      </div>
+      <p id="countdown-display">00:00</p>
+    </div>
+
+    <div id="stopwatch">
+      <h3>Stopwatch</h3>
+      <div>
+        <button class="btn" id="start-stopwatch">Start</button>
+        <button class="btn" id="stop-stopwatch" disabled>Stop</button>
+        <button class="btn" id="reset-stopwatch" disabled>Reset</button>
+      </div>
+      <p id="stopwatch-display">00:00:00</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
